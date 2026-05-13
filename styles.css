@@ -77,7 +77,7 @@ body {
 }
 
 .intro {
-    
+
 }
 
 h2 {
@@ -95,6 +95,46 @@ h2 {
     font-size: 1rem;
     margin-bottom: 4.5rem;
 }
+
+.features {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 6rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.features .feature-desc div {
+    padding-bottom: 1rem;
+}
+.features .feature-desc h3 {
+    color: var(--gray700);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .7rem;
+}
+
+.features .feature-desc p {
+    max-width: 33ch;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: var(--gray500);
+    font-weight: 400;
+}
+
+.access {
+
+
+}
+
+.access p {
+    max-width: 35ch;
+    margin: 0 auto;
+}
+
+
 
 
 
