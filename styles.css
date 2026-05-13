@@ -1,0 +1,119 @@
+:root {
+    --green500: hsl(171, 66%, 44%);
+    --blue100: hsl(233, 100%, 69%);
+    --gray700: hsl(210, 10%, 33%);
+    --gray500: hsl(201, 11%, 66%);
+
+    --font: "Bai Jamjuree", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.hero {
+    padding: 5rem;
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero img {
+
+}
+
+.hero h1 {
+    font-weight: 600;
+    color: var(--gray700);
+    margin-bottom: .5rem;
+}
+
+.hero p {
+    max-width: 55ch;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 400;
+    color: var(--gray500);
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.buttons .btn {
+    background-color: red;
+    text-decoration: none;
+    padding: .8rem 2.2rem;
+    border-radius: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+ .buttons #IOS
+{
+    background-color: var(--green500);
+}
+
+.buttons #MAC {
+    background-color: var(--blue100);
+}
+
+.buttons .btn:hover {
+    opacity: 60%;
+    transition: opacity .8s ease;
+}
+
+.intro {
+    
+}
+
+h2 {
+    color: var(--gray700);
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    max-width: 60ch;
+    margin: 0 auto;
+    color: var(--gray500);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 4.5rem;
+}
+
+
+
+
+/*
+
+### Body Copy
+
+- Font size: 18px
+
+### Fonts
+
+- Weights: 400, 600
+
+## Icons
+
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+*/ 
