@@ -234,6 +234,133 @@ footer .socials img:hover {
     hue-rotate(122deg) brightness(91%) contrast(90%);
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding-inline: 1.5rem;
+        margin-bottom: 8rem;
+    }
+
+    .hero {
+        background-image: url('images/bg-header-mobile.png');
+        padding: 7rem 1.5rem 5rem;
+    }
+
+    .hero img {
+        width: 125px;
+        margin: 0 auto 4rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero p,
+    .intro p,
+    .access p,
+    .workflow p,
+    .clipboard p {
+        font-size: .95rem;
+        max-width: 32ch;
+        margin-inline: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .buttons .btn {
+        width: 100%;
+        max-width: 310px;
+    }
+
+    .features {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        margin-bottom: 8rem;
+        padding-inline: 1.5rem;
+    }
+
+    .features > img {
+        width: 100%;
+        max-width: 320px;
+        transform: translateX(0);
+    }
+
+    .features .feature-desc {
+        max-width: 100%;
+    }
+
+    .features .feature-desc div {
+        margin-bottom: 3rem;
+    }
+
+    .features .feature-desc p {
+        margin: 0 auto;
+        max-width: 30ch;
+    }
+
+    .access img {
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+    .workflow .workflow-boxes {
+        flex-direction: column;
+        gap: 3.5rem;
+        margin-bottom: 7rem;
+    }
+
+    .workflow .workflow-boxes img {
+        margin: 0 auto 2rem;
+    }
+
+    .workflow .company-boxes {
+        flex-direction: column;
+        gap: 4rem;
+        margin-bottom: 8rem;
+    }
+
+    .clipboard {
+        margin-bottom: 10rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 2.5rem;
+        padding: 4rem 1.5rem;
+        margin-top: 0;
+    }
+
+    footer #company-logo {
+        width: 55px;
+        margin: 0 auto;
+    }
+
+    footer .footer-grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        gap: 1.5rem;
+    }
+
+    footer .footer-grid a {
+        text-align: center;
+    }
+
+    footer .socials {
+        gap: 2rem;
+        margin: 0 auto;
+    }
+}
 
 
 
