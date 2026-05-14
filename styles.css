@@ -139,6 +139,33 @@ h2 {
     margin-bottom: 7rem;
 }
     
+.workflow p {
+    max-width: 60ch;
+    margin: 0 auto;
+    color: var(--gray500);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+.workflow .workflow-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto 0;
+    margin-bottom: 6rem;
+}
+
+.workflow .company-boxes {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 6rem;
+    max-width: 1100px;
+    margin-bottom: 8rem;
+}
 
 
 
