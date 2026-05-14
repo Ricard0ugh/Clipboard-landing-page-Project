@@ -225,6 +225,13 @@ footer .socials {
 footer .socials img {
     width: 24px;
     cursor: pointer;
+    transition: filter .5s ease;
+}
+
+footer .socials img:hover {
+    filter: brightness(0) saturate(100%) 
+    invert(67%) sepia(62%) saturate(482%) 
+    hue-rotate(122deg) brightness(91%) contrast(90%);
 }
 
 
