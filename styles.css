@@ -158,6 +158,12 @@ h2 {
     margin-bottom: 6rem;
 }
 
+.workflow .workflow-boxes h3{
+    color: var(--gray700);
+    font-weight: 600;
+    font-size: 1.15em;
+}
+
 .workflow .company-boxes {
     display: flex;
     justify-self: center;
@@ -183,16 +189,19 @@ footer {
     background-color: rgb(243, 242, 242);
     padding: 3rem;
     justify-content: space-around;
+    margin-top: 8rem;
 }
 
 footer #company-logo {
-    width: 7%;
+    width: 4%;
+    margin-right: -15rem;
 }
 
 footer .footer-grid {
     display: grid;
     grid-template-columns: repeat(3, 140px);
     gap: .5rem 3rem;
+    margin-left: -6rem;
 }
 
 footer .footer-grid a {
@@ -200,6 +209,11 @@ footer .footer-grid a {
     text-decoration: none;
     color: var(--gray700);
     font-weight: 500;
+}
+
+footer .footer-grid a:hover {
+    color: var(--green500);
+    transition: color .5s ease;
 }
 
 footer .socials {
@@ -212,6 +226,7 @@ footer .socials img {
     width: 24px;
     cursor: pointer;
 }
+
 
 
 
