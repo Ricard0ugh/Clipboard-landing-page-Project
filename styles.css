@@ -19,6 +19,10 @@ body {
     line-height: 1.6;
 }
 
+section {
+    margin-bottom: 3rem;
+}
+
 .hero {
     padding: 5rem;
     background-image: url('images/bg-header-desktop.png');
@@ -124,15 +128,18 @@ h2 {
     font-weight: 400;
 }
 
-.access {
 
-
-}
 
 .access p {
-    max-width: 35ch;
+    max-width: 60ch;
     margin: 0 auto;
+    color: var(--gray500);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 7rem;
 }
+    
+
 
 
 
